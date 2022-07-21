@@ -1,0 +1,42 @@
+
+        
+        .tiente {
+            width: 100%;
+            float: left;
+            margin-bottom: 20px;
+        }
+
+        .input {
+            width: 20%;
+            float: left;
+        }
+
+        .dinhgia {
+            width: 20%;
+            float: left;
+            
+        }
+
+        .yetgia {
+            width: 20%;
+            float: left;
+        }
+        .button {
+            width: 20%;
+            float: left;
+            padding-top: 50px;
+        }
+        #demo1 {
+            padding: 5px 15px;
+        }
+        #dinhgia {
+            padding: 5px 35px;
+        }
+        #yetgia {
+            padding: 5px 35px;
+        }
+        button {
+            padding: 8px 35px;
+            background-color: blueviolet;
+        }
+   

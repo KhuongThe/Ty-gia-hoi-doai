@@ -6,48 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        
-        .tiente {
-            width: 100%;
-            float: left;
-            margin-bottom: 20px;
-        }
-
-        .input {
-            width: 20%;
-            float: left;
-        }
-
-        .dinhgia {
-            width: 20%;
-            float: left;
-            
-        }
-
-        .yetgia {
-            width: 20%;
-            float: left;
-        }
-        .button {
-            width: 20%;
-            float: left;
-            padding-top: 50px;
-        }
-        #demo1 {
-            padding: 5px 15px;
-        }
-        #dinhgia {
-            padding: 5px 35px;
-        }
-        #yetgia {
-            padding: 5px 35px;
-        }
-        button {
-            padding: 8px 35px;
-            background-color: blueviolet;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+    
 </head>
 
 <body>
@@ -83,69 +44,6 @@
     
     <h3 id="demo2">Tra ket qua: </h3>
 </body>
-<script>
-    function fun_name() {
-        let input_x = document.getElementById("demo1").value;
-        let x = parseInt(input_x);
-        let y = document.getElementById("dinhgia").value;
-        let z = document.getElementById("yetgia").value;
-        let A = y && z;
-        let A1;
-
-        if (y == "VND" && z == "USD") {
-            A1 = 0.000043;
-        }
-        else if (y == "VND" && z == "EURO") {
-            A1 = 0.000042;
-        }
-        else if (y == "VND" && z == "POUND") {
-            A1 = 0.000036;
-        }
-        else if (y == "VND" && z == "VND") {
-            A1 = 1;
-        }
-        else if (y == "USD" && z == "VND") {
-            A1 = 23255.81;
-        }
-        else if (y == "USD" && z == "EURO") {
-            A1 = 0.976744;
-        }
-        else if (y == "USD" && z == "POUND") {
-            A1 = 0.837209;
-        }
-        else if (y == "USD" && z == "USD") {
-            A1 = 1;
-        }
-        else if (y == "EURO" && z == "VND") {
-            A1 = 23809.52;
-        }
-        else if (y == "EURO" && z == "USD") {
-            A1 = 1.02381;
-        }
-        else if (y == "EURO" && z == "POUND") {
-            A1 = 0.857143;
-        }
-        else if (y == "EURO" && z == "EURO") {
-            A1 = 1;
-        }
-        else if (y == "POUND" && z == "VND") {
-            A1 = 27777.78;
-        }
-        else if (y == "POUND" && z == "USD") {
-            A1 = 1.194444;
-        }
-        else if (y == "POUND" && z == "EURO") {
-            A1 = 1.166667;
-        }
-        else if (y == "POUND" && z == "POUND") {
-            A1 = 1;
-        }
-        else {
-            A1 = 0;
-        }
-        let B = x * A1
-        document.getElementById("demo2").innerText = "Tra ket qua: " + B;
-    }
-</script>
+<script src="javascript.js"></script>
 
 </html>
